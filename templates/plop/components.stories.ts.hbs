@@ -1,0 +1,27 @@
+import type { Meta, StoryObj } from '@storybook/react';
+import { {{pascalCase name}} } from '{{pascalCase name}}';
+
+const meta = {
+  title: '{{folder}}/{{pascalCase name}}',
+  component: {{pascalCase name}},
+  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/7.0/react/writing-docs/docs-page
+  tags: ['autodocs'],
+  parameters: {
+    // More on how to position stories at: https://storybook.js.org/docs/7.0/react/configure/story-layout
+    layout: "{{layout}}",
+  },
+} satisfies Meta<typeof {{pascalCase name}}>;
+
+export default meta;
+
+/*
+* type Story = StoryObj<typeof Button>;
+*
+* Render functions are a framework specific feature to allow you control on how the component renders.
+* See https://storybook.js.org/docs/7.0/react/api/csf
+* to learn how to use render functions.
+*
+* export const Primary: Story = {
+*  render: () => <Button primary label="Button" />,
+* };
+*/
