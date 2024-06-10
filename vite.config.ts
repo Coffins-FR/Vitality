@@ -9,7 +9,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@": path.resolve(path.join(__dirname, "src")),
+      "@app": path.resolve(path.join(__dirname, "src")),
       "@components": path.resolve(path.join(__dirname, "src", "components")),
       "@containers": path.resolve(path.join(__dirname, "src", "containers")),
       "@styles": path.resolve(path.join(__dirname, "src", "styles")),
